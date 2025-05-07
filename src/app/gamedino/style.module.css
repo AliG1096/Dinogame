@@ -1,0 +1,138 @@
+/* Styl dla kontenera */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Wysokość kontenera ustawiona na 100% wysokości widoku */
+    padding: 0 2rem; /* Padding dla lepszej responsywności */
+    box-sizing: border-box; /* Uwzględnia padding i border w szerokości i wysokości elementu */
+    font-family: 'Rock Salt', cursive;
+}
+
+/* Styl pytania */
+.question {
+    color: #F29849; /* Pomarańczowy kolor tekstu pytania */
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+    font-weight: 700;
+    text-align: center; /* Wyśrodkowanie tekstu */
+    max-width: 60%; /* Maksymalna szerokość pytania, aby unikać zbyt szerokiego tekstu */
+    box-sizing: border-box; /* Uwzględnia padding i border w szerokości elementu */
+}
+
+/* Styl dla kontenera z odpowiedziami */
+.choiceContainer {
+    display: flex;
+    align-items: center; /* Wyrównanie elementów w poziomie */
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    width: 60%;
+    border: 0.1rem solid rgba(98, 166, 51, 0.25); /* Zielony border z przezroczystością */
+    box-sizing: border-box; /* Uwzględnia padding i border w szerokości elementu */
+    background-color: white; /* Tło kontenera odpowiedzi */
+}
+
+/* Styl dla kontenera odpowiedzi na hover */
+.choiceContainer:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 3.4rem 0 rgba(98, 166, 51, 0.5); /* Zielony cień */
+    transform: translateY(-0.1rem);
+}
+
+/* Styl dla prefixu (literki) */
+.choicePrefix {
+    padding: 1rem 1.5rem;
+    background-color: #214018; /* Ciemnozielony tło prefixu */
+    color: white;
+    flex-shrink: 0; /* Zapobiega zmniejszaniu się prefixu */
+}
+
+/* Styl dla tekstu odpowiedzi */
+.choiceText {
+    padding: 1rem;
+    flex-grow: 1; /* Umożliwia zajmowanie pozostałej przestrzeni */
+    color: #214018; /* Ciemnozielony kolor tekstu odpowiedzi */
+}
+
+.number {
+    color:  #214018; /* Pomarańczowy kolor tekstu pytania */
+    text-align: center; /* Wyśrodkowanie tekstu */
+    max-width: 60%; /* Maksymalna szerokość pytania, aby unikać zbyt szerokiego tekstu */
+    box-sizing: border-box; /* Uwzględnia padding i border w szerokości elementu */
+}
+
+.containerNumber {
+    display: flex;
+    justify-content: space-between; /* Ustawienie elementów po lewej i prawej stronie */
+    width: 100%;
+    max-width: 60%; /* Maksymalna szerokość kontenera */
+    padding: 1rem 0; /* Padding góra-dół */
+}
+
+
+
+/* Styl pytania numeru */
+.numberQuestion {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0; /* Brak marginesu */
+}
+
+.number {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0.2rem 0 0 0; /* Mały margines górny */
+}
+
+
+
+
+
+
+.volume {
+    width: 25px;  /* Width set as a percentage of the viewport width for responsiveness */
+    height: 25px; /* Height set as a percentage of the viewport width for consistency */
+    max-width: 50px; /* Limit the maximum width to 50px */
+    max-height: 50px; /* Limit the maximum height to 50px */
+    color:black;
+    cursor: pointer;
+    position: absolute;
+    right: 22%;  /* Position from the right edge */
+    top: 1%;  /* Adjust top position as needed */
+    z-index: 1000;  /* Ensure it stays on top of other elements */
+}
+
+.bad {
+     background-color: red;
+}
+.good
+{
+    background-color: green;
+}
+@media (max-width: 768px) {
+     .number {
+        font-size: .8rem; /* Zmniejszenie rozmiaru czcionki o 50% */
+    }
+    .question
+    {
+        font-size: 1rem;
+    }
+    .choiceContainer {
+        font-size: 0.6rem; /* Zmniejszenie rozmiaru czcionki o 50% */
+        width: 60%; /* Zmniejszenie szerokości kontenera o 50% */
+    }
+
+    .choicePrefix {
+        padding: 0.5rem 0.75rem; /* Zmniejszenie paddingu o 50% */
+    }
+
+    .choiceText {
+        padding: 0.5rem; /* Zmniejszenie paddingu o 50% */
+    }
+    .volume{
+        height: 12.5px;
+        width: 12.5px;
+
+    }
+}

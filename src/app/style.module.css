@@ -1,0 +1,189 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 0 2rem;
+}
+
+.button {
+  font-weight: bold;
+  color: black;
+  border-radius: 1rem;
+  cursor: pointer;
+  width: 15vw;
+  font-size: 1.5vw;
+  height: 50.66px;
+  border: none;
+  background-color: #F29849;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2vh auto;
+  font-family: 'Rock Salt', cursive;
+}
+
+.ikon {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.button .spanMother {
+  display: flex;
+  overflow: hidden;
+}
+
+.button:hover .spanMother {
+  position: absolute;
+}
+
+.button:hover .spanMother span {
+  transform: translateY(1.4em);
+}
+
+.button .spanMother span {
+  transition: 0.2s;
+}
+
+/* More span transition delays */
+.button .spanMother span:nth-child(1) { transition: 0.2s; }
+.button .spanMother span:nth-child(2) { transition: 0.3s; }
+.button .spanMother span:nth-child(3) { transition: 0.4s; }
+.button .spanMother span:nth-child(4) { transition: 0.5s; }
+.button .spanMother span:nth-child(5) { transition: 0.6s; }
+.button .spanMother span:nth-child(6) { transition: 0.7s; }
+.button .spanMother span:nth-child(7) { transition: 0.8s; }
+.button .spanMother span:nth-child(8) { transition: 0.9s; }
+.button .spanMother span:nth-child(9) { transition: 1s; }
+.button .spanMother span:nth-child(10) { transition: 1.1s; }
+.button .spanMother span:nth-child(11) { transition: 1.2s; }
+.button .spanMother span:nth-child(12) { transition: 1.3s; }
+.button .spanMother span:nth-child(13) { transition: 1.4s; }
+.button .spanMother span:nth-child(14) { transition: 1.5s; }
+.button .spanMother span:nth-child(15) { transition: 1.6s; }
+.button .spanMother span:nth-child(16) { transition: 1.7s; }
+
+.button .spanMother2 {
+  display: flex;
+  position: absolute;
+  overflow: hidden;
+}
+
+.button .spanMother2 span {
+  transform: translateY(-1.4em);
+}
+
+.button:hover .spanMother2 span {
+  transform: translateY(0);
+}
+
+/* spanMother2 transition delays */
+.button .spanMother2 span:nth-child(1) { transition: 0.2s; }
+.button .spanMother2 span:nth-child(2) { transition: 0.3s; }
+.button .spanMother2 span:nth-child(3) { transition: 0.4s; }
+.button .spanMother2 span:nth-child(4) { transition: 0.5s; }
+.button .spanMother2 span:nth-child(5) { transition: 0.6s; }
+.button .spanMother2 span:nth-child(6) { transition: 0.7s; }
+.button .spanMother2 span:nth-child(7) { transition: 0.8s; }
+.button .spanMother2 span:nth-child(8) { transition: 0.9s; }
+.button .spanMother2 span:nth-child(9) { transition: 1s; }
+.button .spanMother2 span:nth-child(10) { transition: 1.1s; }
+.button .spanMother2 span:nth-child(11) { transition: 1.2s; }
+.button .spanMother2 span:nth-child(12) { transition: 1.3s; }
+.button .spanMother2 span:nth-child(13) { transition: 1.4s; }
+.button .spanMother2 span:nth-child(14) { transition: 1.5s; }
+.button .spanMother2 span:nth-child(15) { transition: 1.6s; }
+.button .spanMother2 span:nth-child(16) { transition: 1.7s; }
+
+.dinoTitle {
+  font-family: 'Rock Salt', cursive;
+  font-size: 5vw;
+  color: #4a772f;
+  text-shadow: 
+      3px 3px 0 #374d29, 
+      5px 5px 0 #2c3e20, 
+      -2px 2px 0 #2c3e20, 
+      2px -2px 0 #2c3e20;
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 2rem;
+  text-align: center;
+  bottom: 12%;
+}
+
+.dinoTitle::before,
+.dinoTitle::after {
+  position: absolute;
+  content: "";
+  display: block;
+  opacity: 0.7;
+}
+
+.dinoTitle::before {
+  content: "\2605";
+  top: -10%;
+  left: -7%;
+  font-size: 4vw;
+  color: #70543e;
+  transform: rotate(-20deg);
+}
+
+.dinoTitle::after {
+  content: "\2736";
+  bottom: -8%;
+  right: -8%;
+  font-size: 4vw;
+  color: #8d6e4f;
+  transform: rotate(20deg);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .dinoTitle {
+      font-size: 8vw;
+  }
+
+  .button {
+      width: 30vw;
+      font-size: 3vw;
+  }
+
+  .dinoTitle::before, .dinoTitle::after {
+      font-size: 6vw;
+  }
+  .dinoTitle::before {
+    content: "\2605";
+    top: -7%;
+    left: 12%;
+    font-size: 4vw;
+    color: #70543e;
+    transform: rotate(-20deg);
+  }
+  
+  .dinoTitle::after {
+    content: "\2736";
+    bottom: -8%;
+    right: 12%;
+    font-size: 4vw;
+    color: #8d6e4f;
+    transform: rotate(20deg);
+  }
+}
+
+@media (max-width: 480px) {
+  .dinoTitle {
+      font-size: 12vw;
+  }
+
+  .button {
+      width: 50vw;
+      font-size: 5vw;
+  }
+
+  .dinoTitle::before, .dinoTitle::after {
+      font-size: 8vw;
+  }
+}

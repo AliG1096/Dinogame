@@ -1,0 +1,188 @@
+/* Styl dla kontenera */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Wysokość kontenera ustawiona na 100% wysokości widoku */
+    padding: 0 2rem; /* Padding dla lepszej responsywności */
+    box-sizing: border-box; /* Uwzględnia padding i border w szerokości i wysokości elementu */
+    font-family: 'Rock Salt', cursive;
+}
+
+/* Styl dla tabeli */
+.table {
+    
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    width: 60%; /* Szerokość tabeli ustawiona na 100% szerokości kontenera */
+    max-width: 100%; /* Maksymalna szerokość tabeli */
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    background-color: #BF88B6; /* Jasnoróżowe tło dla całej tabeli */
+}
+
+.table thead tr {
+    background-color: #98A633; /* Zielone tło dla nagłówków */
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.table th,
+.table td {
+    padding: 12px 15px;
+}
+
+.table tbody tr {
+    border-bottom: 1px solid #F29849; /* Pomarańczowe linie oddzielające wiersze */
+    background-color: #f3f3f3; /* Jasne tło dla wierszy */
+    color: #214018; /* Ciemnozielony kolor tekstu */
+}
+
+.table tbody tr:nth-of-type(even) {
+    background-color: #F29849; /* Pomarańczowe tło dla parzystych wierszy */
+    color: #ffffff; /* Biały tekst dla lepszego kontrastu */
+}
+
+.table tbody tr:last-of-type {
+    border-bottom: 2px solid #98A633; /* Zielona dolna linia tabeli */
+}
+
+.table tbody tr.active-row {
+    font-weight: bold;
+    color: #F23A29; /* Czerwony kolor tekstu dla wyróżnionego wiersza */
+}
+
+/* Styl dla tytułu tabeli */
+.tableTitle {
+    font-weight: bold; 
+    text-transform: uppercase;
+    font-size: 2em; /* Rozmiar czcionki dla tytułu */
+    color: #98A633; /* Czarny kolor tekstu */
+    margin-bottom: 20px; /* Odstęp między tytułem a tabelą */
+    text-align: center; /* Wyrównanie tytułu do środka */
+    
+}
+
+/* Styl dla przycisków */
+.buttonsContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    max-width: 100%; /* Maksymalna szerokość kontenera przycisków */
+}
+
+.button, .buttonr {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #214018;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1rem; /* Rozmiar czcionki dla przycisków */
+    padding: 12px 16px; /* Padding przycisków */
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button {
+    width: auto; /* Automatyczna szerokość dla przycisku */
+}
+
+.buttonr {
+    width: auto; /* Automatyczna szerokość dla przycisku */
+}
+
+.button span, .buttonr span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '«';
+    position: absolute;
+    opacity: 0;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    transition: 0.5s;
+}
+.buttonr span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    transition: 0.5s;
+}
+.buttonr:hover span {
+    padding-right: 20px;
+}
+.buttonr:hover span:after {
+    opacity: 1;
+    right: 5px;
+}
+
+.button:hover span {
+    padding-left: 20px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    left: 5px;
+}
+
+/* Media queries dla lepszej responsywności */
+@media (max-width: 1024px) {
+    .table {
+        font-size: 0.8em; /* Zmniejszenie rozmiaru czcionki tabeli na większych tabletach */
+    }
+
+    .button, .buttonr {
+        font-size: 0.9rem; /* Zmniejszenie rozmiaru czcionki przycisków */
+        padding: 10px 14px; /* Zmniejszenie paddingu przycisków */
+    }
+}
+
+@media (max-width: 768px) {
+    .table {
+        font-size: 0.7em; /* Zmniejszenie rozmiaru czcionki tabeli na mniejszych tabletach */
+    }
+
+    .buttonsContainer {
+        flex-direction: column; /* Ustawienie przycisków w kolumnie */
+        align-items: center; /* Wyśrodkowanie przycisków */
+       
+    }
+
+    .button, .buttonr {
+        font-size: 0.8rem; /* Zmniejszenie rozmiaru czcionki przycisków */
+        padding: 8px 12px; /* Zmniejszenie paddingu przycisków */
+        width: 100%; /* Ustawienie szerokości przycisków na 100% kontenera */
+        max-width: 200px; /* Maksymalna szerokość przycisków */
+    }
+}
+
+@media (max-width: 480px) {
+    .table {
+        font-size: 0.6em; /* Dalsze zmniejszenie rozmiaru czcionki tabeli na małych ekranach */
+    }
+
+    .tableTitle {
+        font-size: 1.5em; /* Zmniejszenie rozmiaru czcionki tytułu tabeli */
+    }
+
+    .button, .buttonr {
+        font-size: 0.7rem; /* Dalsze zmniejszenie rozmiaru czcionki przycisków */
+        padding: 6px 10px; /* Dalsze zmniejszenie paddingu przycisków */
+        width: 100%; /* Ustawienie szerokości przycisków na 100% kontenera */
+        max-width: 150px; /* Maksymalna szerokość przycisków */
+    }
+}

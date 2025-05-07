@@ -1,0 +1,182 @@
+[
+    {
+        "id": 60,
+        "question": "Który dinozaur miał skrzydła2?",
+        "choices1": "Pterodaktyl",
+        "choices2": "Stegozaur",
+        "choices3": "Tyranozaur",
+        "choices4": "Ankylozaur",
+        "answer": 1
+    },
+    {
+        "id": 61,
+        "question": "Który dinozaur miał dwa rogi nad oczami2?",
+        "choices1": "Triceratops",
+        "choices2": "Stegozaur",
+        "choices3": "Brachiozaur",
+        "choices4": "Velociraptor",
+        "answer": 1
+    },
+    {
+        "id": 62,
+        "question": "Który dinozaur był najmniejszy2?",
+        "choices1": "Compsognathus",
+        "choices2": "Stegozaur",
+        "choices3": "Tyranozaur",
+        "choices4": "Spinozaur",
+        "answer": 1
+    },
+    {
+        "id": 63,
+        "question": "Który dinozaur miał długi ogon, którego używał jak bicz2?",
+        "choices1": "Diplodok",
+        "choices2": "Stegozaur",
+        "choices3": "Triceratops",
+        "choices4": "Ankylozaur",
+        "answer": 1
+    },
+    {
+        "id": 64,
+        "question": "Który dinozaur miał twardy, kostny pancerz na plecach2?",
+        "choices1": "Ankylozaur",
+        "choices2": "Tyranozaur",
+        "choices3": "Pterodaktyl",
+        "choices4": "Brachiozaur",
+        "answer": 1
+    },
+    {
+        "id": 65,
+        "question": "Który dinozaur miał długi, zakrzywiony pazur na stopie2?",
+        "choices1": "Velociraptor",
+        "choices2": "Triceratops",
+        "choices3": "Stegozaur",
+        "choices4": "Ankylozaur",
+        "answer": 1
+    },
+    {
+        "id": 66,
+        "question": "Który dinozaur był największy2?",
+        "choices1": "Brachiozaur",
+        "choices2": "Tyranozaur",
+        "choices3": "Velociraptor",
+        "choices4": "Triceratops",
+        "answer": 1
+    },
+    {
+        "id": 67,
+        "question": "Który dinozaur miał pancerz i maczugę na ogonie2?",
+        "choices1": "Ankylozaur",
+        "choices2": "Stegozaur",
+        "choices3": "Triceratops",
+        "choices4": "Tyranozaur",
+        "answer": 1
+    },
+    {
+        "id": 68,
+        "question": "Czy dinozaury były dinozaurami morskimi2?",
+        "choices1": "Nie",
+        "choices2": "Tak",
+        "choices3": "Niektóre",
+        "choices4": "Wszystkie",
+        "answer": 3
+    },
+    {
+        "id": 69,
+        "question": "Który dinozaur miał dziób jak papuga2?",
+        "choices1": "Triceratops",
+        "choices2": "Pachycefalozaur",
+        "choices3": "Stegozaur",
+        "choices4": "Parasaurolof",
+        "answer": 4
+    },
+    {
+        "id": 70,
+        "question": "Który dinozaur miał kolce na plecach2?",
+        "choices1": "Stegozaur",
+        "choices2": "Tyranozaur",
+        "choices3": "Brachiozaur",
+        "choices4": "Velociraptor",
+        "answer": 1
+    },
+    {
+        "id": 71,
+        "question": "Który dinozaur miał długie zęby do jedzenia mięsa2?",
+        "choices1": "Tyranozaur",
+        "choices2": "Triceratops",
+        "choices3": "Stegozaur",
+        "choices4": "Pterodaktyl",
+        "answer": 1
+    },
+    {
+        "id": 72,
+        "question": "Który dinozaur był znany z dużej prędkości biegu2?",
+        "choices1": "Velociraptor",
+        "choices2": "Stegozaur",
+        "choices3": "Triceratops",
+        "choices4": "Brachiozaur",
+        "answer": 1
+    },
+    {
+        "id": 73,
+        "question": "Który dinozaur miał długie zęby i duże nogi2?",
+        "choices1": "Tyranozaur",
+        "choices2": "Pterodaktyl",
+        "choices3": "Stegozaur",
+        "choices4": "Ankylozaur",
+        "answer": 1
+    },
+    {
+        "id": 74,
+        "question": "Który dinozaur miał małe rączki i duże nogi2?",
+        "choices1": "Tyranozaur",
+        "choices2": "Triceratops",
+        "choices3": "Stegozaur",
+        "choices4": "Velociraptor",
+        "answer": 1
+    },
+    {
+        "id": 75,
+        "question": "Który dinozaur był największym roślinożercą2?",
+        "choices1": "Brachiozaur",
+        "choices2": "Stegozaur",
+        "choices3": "Triceratops",
+        "choices4": "Tyranozaur",
+        "answer": 1
+    },
+    {
+        "id": 76,
+        "question": "Który dinozaur miał dwa rogi i tarczę na głowie2?",
+        "choices1": "Triceratops",
+        "choices2": "Tyranozaur",
+        "choices3": "Velociraptor",
+        "choices4": "Ankylozaur",
+        "answer": 1
+    },
+    {
+        "id": 77,
+        "question": "Który dinozaur miał grzebień na głowie2?",
+        "choices1": "Parasaurolof",
+        "choices2": "Stegozaur",
+        "choices3": "Triceratops",
+        "choices4": "Tyranozaur",
+        "answer": 1
+    },
+    {
+        "id": 78,
+        "question": "Który dinozaur miał duże zęby, ale był roślinożercą2?",
+        "choices1": "Triceratops",
+        "choices2": "Stegozaur",
+        "choices3": "Tyranozaur",
+        "choices4": "Pterodaktyl",
+        "answer": 1
+    },
+    {
+        "id": 79,
+        "question": "Czy dinozaury potrafiły latać2?",
+        "choices1": "Niektóre",
+        "choices2": "Wszystkie",
+        "choices3": "Żadne",
+        "choices4": "Tylko małe",
+        "answer": 1
+    }
+]

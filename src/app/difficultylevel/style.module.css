@@ -1,0 +1,218 @@
+
+.label {
+  display: flex;
+  align-items: center;
+  border-radius: 100px;
+  padding: 14px 16px;
+  margin: 5px 0;
+  cursor: pointer;
+  transition: .3s;
+  font-family: 'Rock Salt', cursive;
+}
+
+.label:hover,
+.label:focus-within,
+.label:active {
+  background: hsla(0, 0%, 80%, .14);
+}
+
+.radioInput {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  z-index: -1;
+}
+
+.radioDesign {
+  width: 22px;
+  height: 22px;
+  border-radius: 100px;
+  background: linear-gradient(to right bottom, hsl(154, 97%, 62%), hsl(225, 97%, 62%));
+  position: relative;
+}
+
+.radioDesign::before {
+  content: '';
+  display: inline-block;
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+  background: hsl(0, 0%, 90%);
+  transform: scale(1.1);
+  transition: .3s;
+  
+}
+
+.radioInput:checked+.radioDesign::before {
+  transform: scale(0);
+}
+
+.labelText {
+  color: hsl(0, 0%, 60%);
+  margin-left: 14px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 900;
+  transition: .3s;
+}
+
+.radioInput:checked~.labelText {
+  color: hsl(0, 0%, 40%);
+}
+/* Kontener główny */
+.container {
+  display: flex;
+  user-select: none;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Wysokość kontenera ustawiona na 100% wysokości widoku */
+  padding: 0 2rem; /* Padding dla lepszej responsywności */
+  width: 100%;
+}
+
+/* Kontener dla opcji */
+.containerop {
+  box-sizing: border-box;
+  background-color: white;
+  padding: 10px 50px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgb(200, 200, 200);
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Nagłówek */
+.h1 {
+  font-family: 'Rock Salt', cursive;
+  font-weight: 600;
+  font-size: 3rem; /* Ustaw rozmiar nagłówka zgodnie z potrzebami */
+  color: #214018; /* Ciemnozielony kolor nagłówka */
+  margin-bottom: 20px;
+}
+/* Kontener dla przycisków */
+.buttonsContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 100%; /* Dostosuj do swoich potrzeb */
+  font-family: 'Rock Salt', cursive;
+}
+
+/* Przycisk z klasą .button */
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #214018;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 17px;
+  padding: 16px;
+  width: 130px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+ 
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '«';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 15px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-left: 15px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  left: 0;
+}
+
+/* Przycisk z klasą .buttonr (przycisk na prawo) */
+.buttonr {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #214018;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 17px;
+  padding: 16px;
+  width: 130px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.buttonr span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttonr span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: 15px;
+  transition: 0.5s;
+}
+
+.buttonr:hover span {
+  padding-right: 15px;
+}
+
+.buttonr:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+@media (max-width: 768px) {
+  .h1 {
+    font-size: 1.5rem; /* Zmniejszone o 50% z 3rem */
+}
+.containerop {
+  width: 400px; /* Zmniejszone o 50% z 800px */
+}
+.button {
+  width: 65px; /* Zmniejszone o 50% z 130px */
+  font-size: 8.5px; /* Zmniejszone o 50% z 17px */
+  padding: 8px; /* Zmniejszone o 50% z 16px */
+}
+.buttonr {
+  width: 65px; /* Zmniejszone o 50% z 130px */
+  font-size: 8.5px; /* Zmniejszone o 50% z 17px */
+  padding: 8px; /* Zmniejszone o 50% z 16px */
+}
+.radioDesign {
+  width: 11px; /* Zmniejszone o 50% z 22px */
+  height: 11px; /* Zmniejszone o 50% z 22px */
+}
+.radioDesign::before {
+  transform: scale(1.1); /* Zachowanie rozmiaru 1.1x, ale mniejszy element */
+}
+.labelText {
+  font-size: 9px; /* Zmniejszone o 50% z 18px */
+  margin-left: 7px; /* Zmniejszone o 50% z 14px */
+  letter-spacing: 1.5px; /* Zmniejszone o 50% z 3px */
+}
+}

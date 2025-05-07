@@ -1,0 +1,260 @@
+/* style.module.css */
+
+/* Kontener dla formularza */
+.container {
+    display: flex;
+    flex-direction: column; /* Ustawia dzieci w kolumnie */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Wysokość kontenera na pełnym widoku */
+    padding: 20px;
+    font-family: 'Rock Salt', cursive;
+   ;
+}
+
+/* Kontener dla input */
+.inputContainer {
+    position: relative;
+    width: 100%;
+    max-width: 270px; /* Maksymalna szerokość input */
+    margin-bottom: 40px; /* Odstęp poniżej input */
+}
+
+/* Stylizacja dla input */
+.input {
+    width: 100%;
+    height: 60px;
+    padding: 12px;
+    font-size: 18px;
+    font-family: "Courier New", monospace;
+    color: #000;
+    background-color: #fff;
+    border: 4px solid #F29849;
+    border-radius: 1rem;
+    outline: none;
+    transition: all 0.3s ease;
+    box-shadow: 8px 8px 0 #000;
+}
+
+/* Placeholder w input */
+.input::placeholder {
+    color: #888;
+}
+
+/* Stylizacja input podczas hover */
+.input:hover {
+    transform: translate(-4px, -4px);
+    box-shadow: 12px 12px 0 #000;
+}
+
+/* Stylizacja input podczas focus */
+.input:focus {
+    background-color: #010101;
+    color: #fff;
+    border-color: #d6d9dd;
+}
+
+/* Placeholder w input podczas focus */
+.input:focus::placeholder {
+    color: #fff;
+}
+
+/* Animacja dla input podczas focus */
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px) rotate(-5deg); }
+    50% { transform: translateX(5px) rotate(5deg); }
+    75% { transform: translateX(-5px) rotate(-5deg); }
+    100% { transform: translateX(0); }
+}
+
+/* Animacja dla input podczas focus */
+.input:focus {
+    animation: shake 0.5s ease-in-out;
+}
+
+/* Animacja dla input podczas wpisywania */
+@keyframes glitch {
+    0% { transform: none; opacity: 1; }
+    7% { transform: skew(-0.5deg, -0.9deg); opacity: 0.75; }
+    10% { transform: none; opacity: 1; }
+    27% { transform: none; opacity: 1; }
+    30% { transform: skew(0.8deg, -0.1deg); opacity: 0.75; }
+    35% { transform: none; opacity: 1; }
+    52% { transform: none; opacity: 1; }
+    55% { transform: skew(-1deg, 0.2deg); opacity: 0.75; }
+    72% { transform: none; opacity: 1; }
+    75% { transform: skew(0.4deg, 1deg); opacity: 0.75; }
+    80% { transform: none; opacity: 1; }
+    100% { transform: none; opacity: 1; }
+}
+
+/* Animacja glitch dla input */
+.input:not(:placeholder-shown) {
+    animation: glitch 1s linear infinite;
+}
+
+/* Stylizacja dla kontenera button */
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+   
+}
+
+/* Stylizacja dla button */
+.button {
+    font-weight: bold;
+    color: black;
+    border-radius: 1rem;
+    cursor: pointer;
+    width: 15vw;
+    font-size: 1.5vw;
+    height: 50.66px;
+    border: none;
+    background-color: #F29849;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+/* Animacje dla button */
+.button .spanMother {
+    display: flex;
+    overflow: hidden;
+}
+
+.button:hover .spanMother {
+    position: absolute;
+}
+
+.button:hover .spanMother span {
+    transform: translateY(1.4em);
+}
+
+.button .spanMother span {
+    transition: 0.2s;
+}
+
+/* Transitiony dla poszczególnych span w button */
+.button .spanMother span:nth-child(1) { transition: 0.2s; }
+.button .spanMother span:nth-child(2) { transition: 0.3s; }
+.button .spanMother span:nth-child(3) { transition: 0.4s; }
+.button .spanMother span:nth-child(4) { transition: 0.5s; }
+.button .spanMother span:nth-child(5) { transition: 0.6s; }
+.button .spanMother span:nth-child(6) { transition: 0.7s; }
+.button .spanMother span:nth-child(7) { transition: 0.8s; }
+.button .spanMother span:nth-child(8) { transition: 0.9s; }
+.button .spanMother span:nth-child(9) { transition: 1s; }
+.button .spanMother span:nth-child(10) { transition: 1.1s; }
+.button .spanMother span:nth-child(11) { transition: 1.2s; }
+.button .spanMother span:nth-child(12) { transition: 1.3s; }
+.button .spanMother span:nth-child(13) { transition: 1.4s; }
+.button .spanMother span:nth-child(14) { transition: 1.5s; }
+.button .spanMother span:nth-child(15) { transition: 1.6s; }
+.button .spanMother span:nth-child(16) { transition: 1.7s; }
+
+.button .spanMother2 {
+    display: flex;
+    position: absolute;
+    overflow: hidden;
+}
+
+.button .spanMother2 span {
+    transform: translateY(-1.4em);
+}
+
+.button:hover .spanMother2 span {
+    transform: translateY(0);
+}
+
+.button .spanMother2 span {
+    transition: 0.2s;
+}
+
+/* Transitiony dla poszczególnych span w button */
+.button .spanMother2 span:nth-child(2) { transition: 0.3s; }
+.button .spanMother2 span:nth-child(3) { transition: 0.4s; }
+.button .spanMother2 span:nth-child(4) { transition: 0.5s; }
+.button .spanMother2 span:nth-child(5) { transition: 0.6s; }
+.button .spanMother2 span:nth-child(6) { transition: 0.7s; }
+.button .spanMother2 span:nth-child(7) { transition: 0.8s; }
+.button .spanMother2 span:nth-child(8) { transition: 0.9s; }
+.button .spanMother2 span:nth-child(9) { transition: 1s; }
+.button .spanMother2 span:nth-child(10) { transition: 1.1s; }
+.button .spanMother2 span:nth-child(11) { transition: 1.2s; }
+.button .spanMother2 span:nth-child(12) { transition: 1.3s; }
+.button .spanMother2 span:nth-child(13) { transition: 1.4s; }
+.button .spanMother2 span:nth-child(14) { transition: 1.5s; }
+.button .spanMother2 span:nth-child(15) { transition: 1.6s; }
+.button .spanMother2 span:nth-child(16) { transition: 1.7s; }
+/* Stylizacja nagłówka h1 */
+.h1 {
+    font-family: 'Arial', sans-serif; /* Wybór czcionki */
+    font-size: 2.5rem; /* Rozmiar czcionki */
+    font-weight: bold; /* Pogrubienie czcionki */
+    color:#F29849;; /* Kolor tekstu */
+    text-align: center; /* Wyśrodkowanie tekstu */
+    margin: 0; /* Usunięcie domyślnych marginesów */
+    padding: 20px; /* Padding wokół nagłówka */
+   
+    width: 100%; /* Szerokość nagłówka */
+    box-sizing: border-box; /* Uwzględnia padding i border w szerokości */
+}
+
+/* Responsywność dla h1 */
+@media (max-width: 768px) {
+    .h1 {
+        font-size: 2rem; /* Mniejszy rozmiar czcionki na mniejszych ekranach */
+        padding: 15px; /* Mniejszy padding */
+    }
+}
+
+@media (max-width: 480px) {
+    .h1 {
+        font-size: 1.75rem; /* Jeszcze mniejszy rozmiar czcionki na bardzo małych ekranach */
+        padding: 10px; /* Mniejszy padding */
+    }
+}
+.ikon
+{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+@media (max-width: 768px) {
+    .dinoTitle {
+        font-size: 8vw;
+    }
+  
+    .button {
+        width: 30vw;
+        font-size: 3vw;
+    }
+  
+
+    .inputContainer {
+        max-width: 135px;
+    }
+    .input {
+        width: 100%;
+        height: 40px;
+        padding: 6px;
+        font-size: 9px;
+        font-family: "Courier New", monospace;
+        color: #000;
+        background-color: #fff;
+        border: 2px solid #F29849;
+        border-radius: 1rem;
+        outline: none;
+        transition: all 0.3s ease;
+        box-shadow: 4px 4px 0 #000;
+    }
+    .h1
+    {
+        font-size: 1.5rem;
+    }
+
+  }

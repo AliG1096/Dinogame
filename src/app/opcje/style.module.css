@@ -1,0 +1,345 @@
+/* Kontener główny */
+.container {
+  display: flex;
+  user-select: none;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Wysokość kontenera ustawiona na 100% wysokości widoku */
+  padding: 0 2rem; /* Padding dla lepszej responsywności */
+  width: 100%;
+  font-family: 'Rock Salt', cursive;
+}
+
+/* Kontener dla opcji */
+.containerop {
+  box-sizing: border-box;
+  background-color: white;
+  padding: 10px 50px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgb(200, 200, 200);
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Nagłówek */
+.h1 {
+ 
+  font-weight: 600;
+  font-size: 3rem; /* Ustaw rozmiar nagłówka zgodnie z potrzebami */
+  color: #214018; /* Ciemnozielony kolor nagłówka */
+  margin-bottom: 20px;
+}
+
+/* Kontener opcji */
+.optionContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5rem; /* Odstęp między opcjami */
+
+  max-width: 100%; /* Maksymalna szerokość kontenera */
+  width: 100%; /* Szerokość kontenera dostosowana do rodzica */
+}
+
+/* Tekst opcji */
+.optionText {
+ 
+  font-size: 1.5rem; /* Rozmiar czcionki dla tekstu opcji */
+  color: black; /* Kolor tekstu */
+  margin-right: 1rem; /* Odstęp między tekstem a przyciskiem */
+  flex-grow: 1; /* Pozwala tekstowi rosnąć w zależności od dostępnej przestrzeni */
+}
+
+/* Przycisk przełączający */
+.toggleButton {
+ 
+  background-color: #F29849; /* Kolor tła przycisku */
+  color: #ffffff; /* Kolor tekstu przycisku */
+  padding: 0.5rem 1rem; /* Padding wewnątrz przycisku */
+  border: none; /* Usunięcie obramowania */
+  border-radius: 0.3rem; /* Zaokrąglenie narożników przycisku */
+
+  font-size: 1rem; /* Rozmiar czcionki przycisku */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Dodanie efektów przejścia */
+  width: 150px; /* Stała szerokość przycisków, aby były równe */
+  text-align: center; /* Wyśrodkowanie tekstu wewnątrz przycisku */
+}
+
+.toggleButton:hover {
+  background-color: #F23A29; /* Kolor tła przycisku przy najechaniu */
+  transform: translateY(-0.1rem); /* Przesunięcie przycisku w górę przy hoverze */
+}
+
+.toggleButton:active {
+  background-color: #98A633; /* Kolor tła przycisku podczas kliknięcia */
+  transform: translateY(0.05rem); /* Przesunięcie przycisku w dół przy kliknięciu */
+}
+
+.l {
+  display: block;
+  margin-bottom: 1.5em;
+  font-size: 1em;
+}
+
+.l {
+  cursor: pointer; /* Zmiana kursora na wskaźnik */
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 0.75em;
+  box-shadow: 0.125em 0.125em 0 0.125em rgba(0,0,0,0.3) inset;
+  color: #fdea7b;
+  display: inline-flex;
+  align-items: center;
+  margin: auto;
+  padding: 0.15em;
+  width: 3em;
+  height: 1.5em;
+  transition: background-color 0.1s 0.3s ease-out, box-shadow 0.1s 0.3s ease-out;
+  
+  appearance: none;
+}
+
+.l:before, .l:after {
+  content: "";
+  display: block;
+}
+
+.l:before {
+  background-color: #d7d7d7;
+  border-radius: 50%;
+  width: 1.2em;
+  height: 1.2em;
+  transition: background-color 0.1s 0.3s ease-out, transform 0.3s ease-out;
+  z-index: 1;
+}
+
+.l:after {
+  background: linear-gradient(transparent 50%, rgba(0,0,0,0.15) 0) 0 50% / 50% 100%,
+		repeating-linear-gradient(90deg,#bbb 0,#bbb,#bbb 20%,#999 20%,#999 40%) 0 50% / 50% 100%,
+		radial-gradient(circle at 50% 50%,#888 25%, transparent 26%);
+  background-repeat: no-repeat;
+  border: 0.25em solid transparent;
+  border-left: 0.4em solid #d8d8d8;
+  border-right: 0 solid transparent;
+  transition: border-left-color 0.1s 0.3s ease-out, transform 0.3s ease-out;
+  transform: translateX(-22.5%);
+  transform-origin: 25% 50%;
+  width: 1.2em;
+  height: 1em;
+  box-sizing: border-box;
+}
+/* Checked */
+.l:checked {
+  background-color: rgba(0,0,0,0.45);
+  box-shadow: 0.125em 0.125em 0 0.125em rgba(0,0,0,0.1) inset;
+}
+
+.l:checked:before {
+  background-color: currentColor;
+  transform: translateX(125%)
+}
+
+.l:checked:after {
+  border-left-color: currentColor;
+  transform: translateX(-2.5%) rotateY(180deg);
+}
+/* Other States */
+.l:focus {
+	/* Usually an anti-A11Y practice but set to remove an annoyance just for this demo */
+  outline: 0;
+}
+
+/* Kontener dla przycisków */
+.buttonsContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 100%; /* Dostosuj do swoich potrzeb */
+}
+
+/* Przycisk z klasą .button */
+.button {
+  
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #214018;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 17px;
+  padding: 16px;
+  width: 130px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '«';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 15px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-left: 15px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  left: 0;
+}
+
+/* Przycisk z klasą .buttonr (przycisk na prawo) */
+.buttonr {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #214018;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 17px;
+  padding: 16px;
+  width: 130px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.buttonr span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttonr span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: 15px;
+  transition: 0.5s;
+}
+
+.buttonr:hover span {
+  padding-right: 15px;
+}
+
+.buttonr:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.PB-range-slider {
+ 
+  width: 100%;
+  height: 4px;
+  border-radius: 5px;
+  background: #D5DBE1;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.PB-range-slider {
+ 
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #000000;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.PB-range-slider:hover {
+  box-shadow: 0px 0px 0px 8px rgba(0, 0, 0, 0.16);
+  transition: 0.3s ease-in-out;
+}
+
+.PB-range-slider::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #000000;
+  cursor: pointer;
+}
+
+.PB-range-slider-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 6px;
+  border: 1px solid #C6CACE;
+  box-shadow: 0px 1px 2px 0px #1F1E241F;
+}
+
+.PB-range-slidervalue {
+  font-weight: 600;
+}
+@media (max-width: 768px) {
+  .containerop {
+    width: 100%;
+    padding: 10px 20px;
+  }
+
+  .h1 {
+    font-size: 2rem; /* Zmniejszenie rozmiaru nagłówka */
+    margin-bottom: 10px;
+  }
+
+  .optionText {
+    font-size: 1rem; /* Zmniejszenie rozmiaru czcionki dla opcji */
+    margin-right: 0.5rem;
+  }
+
+  .toggleButton {
+    padding: 0.3rem 0.5rem; /* Zmniejszenie paddingu w przycisku */
+    font-size: 0.9rem; /* Zmniejszenie rozmiaru czcionki */
+    width: 100px; /* Zmniejszenie szerokości przycisku */
+  }
+
+  .button,
+  .buttonr {
+    font-size: 14px; /* Zmniejszenie rozmiaru czcionki przycisków */
+    padding: 10px; /* Zmniejszenie paddingu */
+    width: 100px; /* Zmniejszenie szerokości przycisków */
+  }
+
+  .button span:after,
+  .buttonr span:after {
+    left: 10px;
+    right: 10px; /* Zmniejszenie pozycji strzałek */
+  }
+  .l {
+    width: 3em;
+    height: 1.5em;
+  }
+  .l:before {
+  
+    width: 1.2em;
+    height: 1.2em;
+  
+  }
+  
+  .l:after {
+ 
+   
+    width: 1.2em;
+    height: 1em;
+    
+  }
+}

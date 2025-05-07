@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "question": "Który dinozaur miał ostre zęby1?",
+        "choices1": "Triceratops",
+        "choices2": "Stegozaur",
+        "choices3": "Tyranozaur",
+        "choices4": "Brachiozaur",
+        "answer": 3
+    },
+    {
+        "id": 2,
+        "question": "Który dinozaur miał trzy rogi na głowie1?",
+        "choices1": "Ankylozaur",
+        "choices2": "Triceratops",
+        "choices3": "Stegozaur",
+        "choices4": "Pterodaktyl",
+        "answer": 2
+    },
+    {
+        "id": 3,
+        "question": "Czy dinozaury żyły dawno temu, czy teraz1?",
+        "choices1": "Dawno temu",
+        "choices2": "Teraz",
+        "choices3": "Za 100 lat",
+        "choices4": "Za 10 lat",
+        "answer": 1
+    },
+    {
+        "id": 4,
+        "question": "Który dinozaur miał długą szyję1?",
+        "choices1": "Tyranozaur",
+        "choices2": "Triceratops",
+        "choices3": "Stegozaur",
+        "choices4": "Brachiozaur",
+        "answer": 4
+    },
+    {
+        "id": 5,
+        "question": "Który dinozaur potrafił latać1?",
+        "choices1": "Pterodaktyl",
+        "choices2": "Tyranozaur",
+        "choices3": "Stegozaur",
+        "choices4": "Ankylozaur",
+        "answer": 1
+    },
+    {
+        "id": 6,
+        "question": "Co jadły dinozaury roślinożerne1?",
+        "choices1": "Mięso",
+        "choices2": "Owady",
+        "choices3": "Rośliny",
+        "choices4": "Inne dinozaury",
+        "answer": 3
+    },
+    {
+        "id": 7,
+        "question": "Który dinozaur miał płyty na grzbiecie1?",
+        "choices1": "Tyranozaur",
+        "choices2": "Stegozaur",
+        "choices3": "Triceratops",
+        "choices4": "Velociraptor",
+        "answer": 2
+    },
+    {
+        "id": 8,
+        "question": "Który dinozaur miał długi, kolczasty ogon1?",
+        "choices1": "Stegozaur",
+        "choices2": "Tyranozaur",
+        "choices3": "Triceratops",
+        "choices4": "Pachycefalozaur",
+        "answer": 1
+    },
+    {
+        "id": 9,
+        "question": "Jak nazywał się największy drapieżny dinozaur1?",
+        "choices1": "Tyranozaur",
+        "choices2": "Stegozaur",
+        "choices3": "Triceratops",
+        "choices4": "Brachiozaur",
+        "answer": 1
+    },
+    {
+        "id": 10,
+        "question": "Czy dinozaury były większe od człowieka1?",
+        "choices1": "Tak",
+        "choices2": "Nie",
+        "choices3": "Były mniejsze",
+        "choices4": "Były tej samej wielkości",
+        "answer": 1
+    },
+    {
+        "id": 11,
+        "question": "Który dinozaur miał grzebień na głowie1?",
+        "choices1": "Pterodaktyl",
+        "choices2": "Parasaurolof",
+        "choices3": "Stegozaur",
+        "choices4": "Triceratops",
+        "answer": 2
+    },
+    {
+        "id": 12,
+        "question": "Który dinozaur miał ostre pazury1?",
+        "choices1": "Velociraptor",
+        "choices2": "Triceratops",
+        "choices3": "Ankylozaur",
+        "choices4": "Pachycefalozaur",
+        "answer": 1
+    },
+    {
+        "id": 13,
+        "question": "Który dinozaur był najmniejszy1?",
+        "choices1": "Brachiozaur",
+        "choices2": "Tyranozaur",
+        "choices3": "Compsognathus",
+        "choices4": "Stegozaur",
+        "answer": 3
+    },
+    {
+        "id": 14,
+        "question": "Co się stało z dinozaurami1?",
+        "choices1": "Odeszły w kosmos",
+        "choices2": "Zaginęły",
+        "choices3": "Wymarły",
+        "choices4": "Żyją do dzisiaj",
+        "answer": 3
+    },
+    {
+        "id": 15,
+        "question": "Który dinozaur miał twardy pancerz1?",
+        "choices1": "Ankylozaur",
+        "choices2": "Stegozaur",
+        "choices3": "Triceratops",
+        "choices4": "Pterodaktyl",
+        "answer": 1
+    },
+    {
+        "id": 16,
+        "question": "Który dinozaur miał wielkie kolce na ogonie1?",
+        "choices1": "Ankylozaur",
+        "choices2": "Triceratops",
+        "choices3": "Stegozaur",
+        "choices4": "Tyranozaur",
+        "answer": 1
+    },
+    {
+        "id": 17,
+        "question": "Który dinozaur miał duże płetwy na plecach1?",
+        "choices1": "Spinozaur",
+        "choices2": "Brachiozaur",
+        "choices3": "Velociraptor",
+        "choices4": "Triceratops",
+        "answer": 1
+    },
+    {
+        "id": 18,
+        "question": "Który dinozaur miał krótki, mocny dziób1?",
+        "choices1": "Triceratops",
+        "choices2": "Stegozaur",
+        "choices3": "Ankylozaur",
+        "choices4": "Pterodaktyl",
+        "answer": 1
+    },
+    {
+        "id": 19,
+        "question": "Czy wszystkie dinozaury jadły mięso1?",
+        "choices1": "Tak",
+        "choices2": "Nie",
+        "choices3": "Tylko niektóre",
+        "choices4": "Żaden",
+        "answer": 3
+    },
+    {
+        "id": 20,
+        "question": "Który dinozaur miał najdłuższą szyję1?",
+        "choices1": "Tyranozaur",
+        "choices2": "Brachiozaur",
+        "choices3": "Triceratops",
+        "choices4": "Stegozaur",
+        "answer": 2
+    }
+]
