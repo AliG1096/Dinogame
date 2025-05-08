@@ -110,38 +110,38 @@
     {
         "id": 72,
         "question": "Który z tych dinozaurów był malutki?",
-        "choices1": "Compsognathus",
+        "choices1": "Spinozaur",
         "choices2": "Brachiozaur",
         "choices3": "Triceratops",
-        "choices4": "Spinozaur",
-        "answer": 1
+        "choices4": "Compsognathus",
+        "answer": 4
     },
     {
         "id": 73,
         "question": "Jak nazywał się latający gad z dużym dziobem?",
-        "choices1": "Pteranodon",
+        "choices1": "Diplodok",
         "choices2": "Velociraptor",
         "choices3": "Ankylozaur",
-        "choices4": "Diplodok",
-        "answer": 1
+        "choices4": "Pteranodon",
+        "answer": 4
     },
     {
         "id": 74,
         "question": "Który dinozaur miał ogromne zęby i jadł mięso?",
-        "choices1": "Tyranozaur",
+        "choices1": "Parasaurolof",
         "choices2": "Stegozaur",
         "choices3": "Triceratops",
-        "choices4": "Parasaurolof",
-        "answer": 1
+        "choices4": "Tyranozaur",
+        "answer": 4
     },
     {
         "id": 75,
         "question": "Który dinozaur miał bardzo długi ogon?",
-        "choices1": "Diplodok",
-        "choices2": "Pachycefalozaur",
+        "choices1": "Pachycefalozaur",
+        "choices2": "Diplodok",
         "choices3": "Ankylozaur",
         "choices4": "Triceratops",
-        "answer": 1
+        "answer": 2
     },
     {
         "id": 76,
@@ -155,11 +155,11 @@
     {
         "id": 77,
         "question": "Jak nazywa się nauka o dinozaurach?",
-        "choices1": "Paleontologia",
+        "choices1": "Biologia",
         "choices2": "Dinozaurologia",
-        "choices3": "Biologia",
+        "choices3": "Paleontologia",
         "choices4": "Zoologia",
-        "answer": 1
+        "answer": 3
     },
     {
         "id": 78,
@@ -173,10 +173,10 @@
     {
         "id": 79,
         "question": "Czy dinozaury żyły w morzu?",
-        "choices1": "Nie, ale były morskie gady",
+        "choices1": "Nie, nigdy",
         "choices2": "Tak, wszystkie",
         "choices3": "Niektóre",
-        "choices4": "Nie, nigdy",
-        "answer": 1
+        "choices4": "Nie, ale były morskie gady",
+        "answer": 4
     }
 ]
