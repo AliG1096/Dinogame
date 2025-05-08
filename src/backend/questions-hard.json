@@ -2,20 +2,20 @@
     {
         "id": 120,
         "question": "Który dinozaur miał skrzydła?",
-        "choices1": "Pterodaktyl",
-        "choices2": "Stegozaur",
+        "choices1": "Stegozaur",
+        "choices2": "Pterodaktyl",
         "choices3": "Tyranozaur",
         "choices4": "Ankylozaur",
-        "answer": 1
+        "answer": 2
     },
     {
         "id": 121,
         "question": "Który dinozaur miał dwa rogi nad oczami?",
-        "choices1": "Triceratops",
+        "choices1": "Brachiozaur",
         "choices2": "Stegozaur",
-        "choices3": "Brachiozaur",
+        "choices3": "Triceratops",
         "choices4": "Velociraptor",
-        "answer": 1
+        "answer": 3
     },
     {
         "id": 122,
@@ -29,11 +29,11 @@
     {
         "id": 123,
         "question": "Który dinozaur miał długi ogon, którego używał jak bicz?",
-        "choices1": "Diplodok",
+        "choices1": "Ankylozaur",
         "choices2": "Stegozaur",
         "choices3": "Triceratops",
-        "choices4": "Ankylozaur",
-        "answer": 1
+        "choices4": "Diplodok",
+        "answer": 4
     },
     {
         "id": 124,
@@ -47,29 +47,29 @@
     {
         "id": 125,
         "question": "Który dinozaur miał długi, zakrzywiony pazur na stopie?",
-        "choices1": "Velociraptor",
-        "choices2": "Triceratops",
+        "choices1": "Triceratops",
+        "choices2": "Velociraptor",
         "choices3": "Stegozaur",
         "choices4": "Ankylozaur",
-        "answer": 1
+        "answer": 2
     },
     {
         "id": 126,
         "question": "Który dinozaur był największy?",
-        "choices1": "Brachiozaur",
+        "choices1": "Velociraptor",
         "choices2": "Tyranozaur",
-        "choices3": "Velociraptor",
+        "choices3": "Brachiozaur",
         "choices4": "Triceratops",
-        "answer": 1
+        "answer": 3
     },
     {
         "id": 127,
         "question": "Który dinozaur miał pancerz i maczugę na ogonie?",
-        "choices1": "Ankylozaur",
+        "choices1": "Tyranozaur",
         "choices2": "Stegozaur",
         "choices3": "Triceratops",
-        "choices4": "Tyranozaur",
-        "answer": 1
+        "choices4": "Ankylozaur",
+        "answer": 4
     },
     {
         "id": 128,
@@ -110,29 +110,29 @@
     {
         "id": 132,
         "question": "Który dinozaur był znany z dużej prędkości biegu?",
-        "choices1": "Velociraptor",
+        "choices1": "Triceratops",
         "choices2": "Stegozaur",
-        "choices3": "Triceratops",
+        "choices3": "Velociraptor",
         "choices4": "Brachiozaur",
-        "answer": 1
+        "answer": 3
     },
     {
         "id": 133,
         "question": "Który dinozaur miał długie zęby i duże nogi?",
-        "choices1": "Tyranozaur",
-        "choices2": "Pterodaktyl",
+        "choices1": "Pterodaktyl",
+        "choices2": "Tyranozaur",
         "choices3": "Stegozaur",
         "choices4": "Ankylozaur",
-        "answer": 1
+        "answer": 2
     },
     {
         "id": 134,
         "question": "Który dinozaur miał małe rączki i duże nogi?",
-        "choices1": "Tyranozaur",
+        "choices1": "Velociraptor",
         "choices2": "Triceratops",
         "choices3": "Stegozaur",
-        "choices4": "Velociraptor",
-        "answer": 1
+        "choices4": "Tyranozaur",
+        "answer": 4
     },
     {
         "id": 135,
@@ -146,20 +146,20 @@
     {
         "id": 136,
         "question": "Który dinozaur miał dwa rogi i tarczę na głowie?",
-        "choices1": "Triceratops",
-        "choices2": "Tyranozaur",
+        "choices1": "Tyranozaur",
+        "choices2": "Triceratops",
         "choices3": "Velociraptor",
         "choices4": "Ankylozaur",
-        "answer": 1
+        "answer": 2
     },
     {
         "id": 137,
         "question": "Który dinozaur miał grzebień na głowie?",
-        "choices1": "Parasaurolof",
-        "choices2": "Stegozaur",
+        "choices1": "Stegozaur",
+        "choices2": "Parasaurolof",
         "choices3": "Triceratops",
         "choices4": "Tyranozaur",
-        "answer": 1
+        "answer": 2
     },
     {
         "id": 138,
