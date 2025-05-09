@@ -19,7 +19,7 @@ export default function useLogic() {
         defaultValue: 0
     })
 
-    const [numberOfAllQuestions, setNumberOfAllQuestions] = useState(30);
+    const [numberOfAllQuestions, setNumberOfAllQuestions] = useState(MAX_QUESTIONS);
     const [pointsPerCorrectAnswer, setPointsPerCorrectAnswer] = useState(10);
     const allQuestionsRef = useRef<Question[]>([]);
     const [numberOfAnsweredQuestions, setNumberOfAnsweredQuestions] = useState(0)
